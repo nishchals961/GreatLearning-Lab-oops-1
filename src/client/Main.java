@@ -1,3 +1,8 @@
+package client;
+
+import model.Employee;
+import service.CredentialService;
+
 import java.util.*;
 
 public class Main {
@@ -44,7 +49,7 @@ b) Determine the department (Technical, Admin, Human Resource, Legal)
 c) Generate a random password which will contain (number, capital letter, small letter &
 special character)
 d) Display the generated credentials
-e) Use parameterized constructor of class Employee, to pass firstName, lastName.
-f) Create a separate CredentialService which will have generatePassword,
+e) Use parameterized constructor of class model.Employee, to pass firstName, lastName.
+f) Create a separate service.CredentialService which will have generatePassword,
 generateEmailAddress, & showCredentials method.
  */
